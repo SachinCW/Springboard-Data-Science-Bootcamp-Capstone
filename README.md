@@ -1,7 +1,25 @@
 # Springboard-Capstone
 -- This readme file will be updated pretty soon. --
 
-Information about the files in this project:
+# Dataset:
+Dataset for this project can be found on the kaggle competition on which this project is based. 
+https://www.kaggle.com/c/quora-insincere-questions-classification/data
+
+It has 1.3 million records in the training file which is 118 meg in size. It also has the popular embedding files mentioned below which run into a few giga bytes in size ranging from 2 GB to 6 GB.
+
+GoogleNews-vectors-negative300.bin
+glove.840B.300d.txt
+paragram_300_sl999.txt
+wiki-news-300d-1M.vec
+
+The dataset from Kaggle was easily downloaded to the Google Drive account using Kaggle API and then Google drive was mounted in the Google Colab for access to the dataset in the Colab notebooks.
+
+The following article sums up the process pretty well.
+https://towardsdatascience.com/setting-up-kaggle-in-google-colab-ebb281b61463
+
+
+
+# Information about the files in this project:
 
 Quora_Experiments_using_Vanilla_Algorithms.ipynb : This is a notebook of the Data Science Experiments conducted on the dataset using Vanilla ML Algorithms.
 
