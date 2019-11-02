@@ -13,7 +13,7 @@ It has 1.3 million records in the training file which is 118 meg in size. It als
 
 3) paragram_300_sl999.txt
 
-4 )wiki-news-300d-1M.vec
+4) wiki-news-300d-1M.vec
 
 The dataset from Kaggle was easily downloaded to the Google Drive account using Kaggle API and then Google drive was mounted in the Google Colab for access to the dataset in the Colab notebooks.
 
