@@ -31,6 +31,8 @@ Quora_Quest_Use_Pretrained_Embeddings.ipynb : This is an Experiment using pre tr
 
 Quora_Quest_Build_Embeddings_using_word2vec.ipynb : This is an experiment training word2vec on the dataset to build our own embeddings or simply put word vectors using the Gensim implementation of Word2Vec.
 
+Quora_CNN.ipynb : This is an experiment using Convolutional Neural Network.
+
 Quora_Final_Model_Training_Notebook.ipynb : This is the finalised model training notebook. The model is dumped into a file in this notebook.
 
 Quora_API.py : This python file has the code to load the model in memory, create the Flask API and host the API for it to be ready listening to the requests for prediction. It listens to the request and performs prediction and returns the prediction requested.
