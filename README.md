@@ -1,7 +1,5 @@
 # Springboard-Capstone Project
 
-Problem - 
-
 An existential problem for any major website today is how to handle toxic and divisive content. Quora wants to tackle this problem head-on to keep their platform a place where users can feel safe sharing their knowledge with the world.
 
 Quora is a platform that empowers people to learn from each other. On Quora, people can ask questions and connect with others who contribute unique insights and quality answers. A key challenge is to weed out insincere questions -- those founded upon false premises, or that intend to make a statement rather than look for helpful answers.
@@ -10,7 +8,7 @@ Through this project, I developed models that identify and flag insincere questi
 
 This is a chance to combat online trolls at scale and help Quora uphold their policy of “Be Nice, Be Respectful” and continue to be a place for sharing and growing the world’s knowledge.
 
-General Description:
+## General Description:
 
 In this project, task was to predict whether a question asked on Quora is sincere or not.
 
@@ -36,7 +34,7 @@ An insincere question is defined as a question intended to make a statement rath
 
 
 
-# Dataset:
+## Dataset:
 Dataset for this project can be found on the kaggle competition on which this project is based. 
 https://www.kaggle.com/c/quora-insincere-questions-classification/data
 
@@ -56,9 +54,20 @@ The following article sums up the process pretty well.
 
 https://towardsdatascience.com/setting-up-kaggle-in-google-colab-ebb281b61463
 
+## Approach to solve this problem:
+This is a supervised classification problem in which the question_text data field will be used as a predictor and the target data field has a value of 1 and 0 that indicate whether the question is insincere or not respectively.
+
+This is a classic NLP based project on which traditional machine learning algorithms, as well as Deep Learning, can be applied. I applied both traditional and Deep Learning Methodologies in this project.
+
+## Computational Resources Utilized:
+I needed access to GPU for applying Deep Learning Techniques for which I used Google Colab.
+I also found that I needed 25 Gig Ram while which again was found through Google Colab.
+
+## Final Deliverable:
+An application deployed as a web service with an API.
 
 
-# Information about the files in this project:
+## Information about the files in this project:
 
 Quora_Experiments_using_Vanilla_Algorithms.ipynb : This is a notebook of the Data Science Experiments conducted on the dataset using Vanilla ML Algorithms.
 
